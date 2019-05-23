@@ -1,0 +1,357 @@
+.box_banner {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+}
+.sj_banner{
+    display: none;
+}
+.sj_banner ul li img{
+    width: 100%;
+}
+.banner_container {
+    width: 100%;
+    height: 800px;
+}
+
+.banner_container ul {
+    width: 100%;
+    height: 800px;
+}
+
+.banner_container ul li {
+    width: 100%;
+    height: 800px;
+}
+
+.prev_ipc, .next_ipc {
+    width: 50px;
+    height: 50px;
+    background: green;
+    display: block;
+    position: absolute;
+    top: 400px;
+    z-index: 3;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    opacity: .3;
+    transition: all 0.5s;
+}
+.prev_ipc:hover,.next_ipc:hover{
+    opacity: 1;
+}
+.prev_ipc{
+    left: 1%;
+} 
+.next_ipc{
+    right: 1%;
+}
+
+/* about */
+
+.about {
+    width: 100%;
+    height: auto;
+}
+
+.about_center {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.about_center .labei {
+    width: 100%;
+    height: 176px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about_center .labei h2, h3 {
+    font-size: 24px;
+    color: #666666;
+    font-family: "微软雅黑";
+}
+
+.about_center .labei h3 {
+    font-size: 18px;
+    color: rgb(33, 33, 33);
+    font-weight: 500;
+}
+
+.content_left {
+    width: 380px;
+    height: auto;
+    overflow: hidden;
+}
+
+.simple {
+    width: 100%;
+    background: #f1f1f1;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.content_left img {
+    margin-bottom: 18px;
+}
+
+.content h1 {
+    color: rgb(74, 179, 68);
+    font-weight: 500;
+    height: 70px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.content a {
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.content h1:after {
+    display: block;
+    content: "";
+    width: 40px;
+    height: 1px;
+    background: rgb(74, 179, 68);
+    margin-top: 30px;
+}
+
+.content_right {
+    width: 800px;
+    height: auto;
+    margin-left: 18px;
+    overflow: hidden;
+}
+
+.cont_right_top {
+    background: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+}
+
+.content_right .ls {
+    margin-top: 18px;
+}
+
+/* 产品展示 */
+
+.case {
+    width: 100%;
+    height: auto;
+    background: #272c31;
+    margin-top: 10px;
+}
+
+.case_center {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.case_labe {
+    width: 100%;
+    height: 224px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.case_labe h2, h3 {
+    color: white;
+}
+
+.case_labe h2 {
+    font-size: 24px;
+}
+
+.case_labe h3 {
+    font-size: 18px;
+}
+
+.case_lower {
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+}
+
+.case_lower ul {
+    width: 670px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+.case_lower ul li {
+    width: 300px;
+    height: 304px;
+    background: white;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    cursor: pointer;
+    position: relative;
+}
+
+.case_lower ul li i {
+    display: block;
+    content: "";
+    width: 64px;
+    height: 64px;
+    background: url(../img/magnifier.png);
+    position: absolute;
+    top: 40%;
+    right: 40%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.case_lower ul li:hover i {
+    opacity: 1;
+}
+
+.case_right {
+    width: 528px;
+    height: 632px;
+    background: white;
+    cursor: pointer;
+    position: relative;
+}
+
+.case_right i {
+    display: block;
+    content: "";
+    width: 64px;
+    height: 64px;
+    background: url(../img/magnifier.png);
+    position: absolute;
+    top: 40%;
+    right: 40%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.case_right:hover i {
+    opacity: 1;
+}
+
+/* casetwo */
+
+.casetwo {
+    width: 100%;
+    height: auto;
+    ;
+    background: #f1f1f1;
+}
+
+.casetwo .caseshow {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caseshow div {
+    width: 300px;
+    height: 400px;
+    background: white;
+    margin: 60px 0 60px 0;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+.caseshow .shows i {
+    display: block;
+    content: "";
+    width: 64px;
+    height: 64px;
+    background: url(../img/magnifier.png);
+    position: absolute;
+    top: 40%;
+    right: 40%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.casetwo .shows:hover i {
+    opacity: 1;
+}
+
+/* news */
+
+.news {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.news .news_content {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.news_content div {
+    width: 360px;
+    height: auto;
+    overflow: hidden;
+}
+
+.news_content div h2 {
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+    margin-top: 10%;
+    font-weight: 500;
+}
+
+.news_content div img {
+    width: 100%;
+    height: 120px;
+    margin-top: 5%;
+}
+
+.news_content div ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    border-bottom: 1px #666666 dashed;
+}
+
+.news_content div ul li a, span {
+    color: #666666;
+}
+
+.news_content div ul a:hover {
+    color: rgb(74, 179, 68)
+}
+
+.news_content div ul span:hover {
+    color: rgb(74, 179, 68)
+}
